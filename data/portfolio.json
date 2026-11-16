@@ -1,0 +1,532 @@
+{
+  "site": {
+    "title": "Vikas A Vastrad | Software Engineer",
+    "description": "Portfolio of Vikas A Vastrad — Associate Software Engineer",
+    "brand": "VIKAS VASTRAD",
+    "logoPath": "/favicon.svg",
+    "logoMark": "➤",
+    "resumeLabel": "Download resume",
+    "resumePath": "/Vikas_Vastrad_Resume_Final.pdf",
+    "resumeFallback": "Print / save PDF",
+    "theme": "travel",
+    "navigation": [
+      {
+        "id": "home",
+        "label": "Departures",
+        "tooltip": "Home",
+        "short": "Departures"
+      },
+      {
+        "id": "about",
+        "label": "Passenger",
+        "tooltip": "About",
+        "short": "Passenger"
+      },
+      {
+        "id": "experience",
+        "label": "Layovers",
+        "tooltip": "Experience & education",
+        "short": "Layovers"
+      },
+      {
+        "id": "projects",
+        "label": "Tickets",
+        "tooltip": "Selected projects",
+        "short": "Tickets"
+      },
+      {
+        "id": "skills",
+        "label": "Baggage",
+        "tooltip": "Technical skills",
+        "short": "Baggage"
+      },
+      {
+        "id": "competencies",
+        "label": "Crew",
+        "tooltip": "Core competencies & soft skills",
+        "short": "Crew"
+      },
+      {
+        "id": "certifications",
+        "label": "Stamps",
+        "tooltip": "Certifications",
+        "short": "Stamps"
+      },
+      {
+        "id": "contact",
+        "label": "Arrival",
+        "tooltip": "Contact",
+        "short": "Arrival"
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "NOW BOARDING · GATE A1 · BENGALURU (BLR)",
+    "headingLines": [
+      "VIKAS A",
+      "VASTRAD"
+    ],
+    "role": "Associate Software Engineer · Angular · RxJS",
+    "description": "I build clear, fast web apps for the travel domain: flight and hotel portals, from first search to final booking.",
+    "primaryButton": "View my tickets",
+    "secondaryButton": "Contact",
+    "boardTitle": "DEPARTURES",
+    "boardLocation": "BLR · TODAY",
+    "boardColumns": [
+      "Flight",
+      "Destination",
+      "Gate",
+      "Status"
+    ],
+    "flights": [
+      {
+        "flight": "VV 001",
+        "destination": "ANGULAR",
+        "gate": "A1",
+        "status": "BOARDING",
+        "highlight": true
+      },
+      {
+        "flight": "VV 002",
+        "destination": "REACT",
+        "gate": "B4",
+        "status": "ON TIME"
+      },
+      {
+        "flight": "VV 003",
+        "destination": "SPRING BOOT",
+        "gate": "C2",
+        "status": "ON TIME"
+      },
+      {
+        "flight": "VV 004",
+        "destination": "TRAVEL TECH",
+        "gate": "D7",
+        "status": "ON TIME"
+      }
+    ],
+    "noticeLabel": "NOTICE PERIOD",
+    "noticeValue": "[XX] DAYS",
+    "heading": "Departures",
+    "subtitle": "Home",
+    "metricsHeading": "IMPACT AT A GLANCE",
+    "tenureStart": "2025-09-01",
+    "tenureUnits": {
+      "year": "yr",
+      "years": "yrs",
+      "months": "mo"
+    },
+    "metrics": [
+      {
+        "value": "10+",
+        "label": "Edge cases handled",
+        "detail": "Cancellation and rescheduling flows",
+        "type": "static"
+      },
+      {
+        "value": "2",
+        "label": "Travel portals",
+        "detail": "Flight booking (B2C) and hotels agent (B2B)",
+        "type": "static"
+      },
+      {
+        "value": "3",
+        "label": "User roles served",
+        "detail": "Customers, admins and travel agents",
+        "type": "static"
+      },
+      {
+        "value": "2",
+        "label": "Frameworks in use",
+        "detail": "Angular, plus React and Next.js",
+        "type": "static"
+      },
+      {
+        "value": "",
+        "label": "At TripXL",
+        "detail": "Since September 2025",
+        "type": "tenure"
+      }
+    ]
+  },
+  "about": {
+    "heading": "About me",
+    "eyebrow": "CHECK-IN · PASSENGER DETAILS",
+    "fields": [
+      {
+        "label": "NAME",
+        "value": "Vikas A Vastrad"
+      },
+      {
+        "label": "ROLE",
+        "value": "Associate Software Engineer"
+      },
+      {
+        "label": "BASED IN",
+        "value": "Whitefield, Bengaluru"
+      },
+      {
+        "label": "EDUCATION",
+        "value": "B.E. Mechanical, 2023"
+      }
+    ],
+    "photoPlaceholder": "[PHOTO]",
+    "photoPath": "",
+    "machineReadable": "PASSENGER<<VASTRAD<<VIKAS<A<<<BLR<<<<<<<<<<",
+    "subtitle": "About",
+    "introLabel": "WHO I AM",
+    "introHeading": "MECHANICAL ENGINEER TURNED WEB DEVELOPER",
+    "introduction": "I'm an Associate Software Engineer at TripXL in Bengaluru, building flight and hotel booking portals with Angular, RxJS and, more recently, React and Next.js. After graduating in 2023, I spent two years learning full-stack development and building projects before joining TripXL in 2025. I like turning complicated booking flows into simple, reliable experiences.",
+    "detailsLabel": "PASSENGER DETAILS",
+    "chipGroups": [
+      {
+        "label": "LANGUAGES",
+        "values": [
+          "English",
+          "Hindi",
+          "Kannada"
+        ]
+      },
+      {
+        "label": "INTERESTS",
+        "values": [
+          "Learning new tech",
+          "Clean code",
+          "Frontend development"
+        ]
+      },
+      {
+        "label": "HOBBIES",
+        "values": [
+          "Reading books",
+          "Listening to music"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Layovers",
+    "eyebrow": "LEG 01 / 05 · LAYOVERS",
+    "entries": [
+      {
+        "meta": "2023 · DEPARTURE",
+        "title": "B.E. MECHANICAL",
+        "description": "Bapuji Institute of Engineering & Technology, Davanagere.",
+        "details": {
+          "role": "B.E. in Mechanical Engineering",
+          "organization": "Bapuji Institute of Engineering & Technology, Davanagere",
+          "period": "2023",
+          "technologies": [
+            "Mechanical Engineering"
+          ],
+          "highlights": [
+            "Completed a B.E. in Mechanical Engineering at Bapuji Institute of Engineering & Technology, Davanagere, in 2023."
+          ]
+        },
+        "summary": [
+          "Completed a B.E. in Mechanical Engineering in 2023.",
+          "Studied at Bapuji Institute of Engineering & Technology, Davanagere."
+        ]
+      },
+      {
+        "meta": "2023–2025 · LAYOVER",
+        "title": "LEARNING FULL-STACK",
+        "description": "Java, Spring Boot, React and a string of projects, including a JioCinema clone.",
+        "details": {
+          "role": "Full-Stack Developer - Self-Directed Learning",
+          "organization": "Independent",
+          "period": "2023 - 2025",
+          "technologies": [
+            "JavaScript",
+            "React.js",
+            "Java",
+            "Spring Boot",
+            "Spring Security",
+            "SQL",
+            "REST APIs",
+            "Git/GitHub"
+          ],
+          "highlights": [
+            "Learned Spring Boot, REST APIs, Spring Security, and SQL databases through structured courses and hands-on practice.",
+            "Completed four industry certifications.",
+            "Built a JioCinema Replica using React.js, JavaScript, CSS, and mock APIs, with 90% reusable components, a responsive layout for 15+ screen sizes, and 50+ movie titles displayed dynamically."
+          ]
+        },
+        "summary": [
+          "Learned Java, Spring Boot, REST APIs, and backend fundamentals.",
+          "Built full-stack projects, including a JioCinema clone in React."
+        ]
+      },
+      {
+        "meta": "SEP 2025 · NOW FLYING",
+        "title": "TRIPXL",
+        "description": "Associate Software Engineer (Angular) in the travel domain.",
+        "active": true,
+        "details": {
+          "role": "Associate Software Engineer",
+          "organization": "TripXL",
+          "period": "September 2025 - Present",
+          "technologies": [
+            "Angular",
+            "TypeScript",
+            "RxJS",
+            "Next.js",
+            "React",
+            "REST APIs",
+            "Agile/Scrum"
+          ],
+          "highlights": [
+            "Worked on the B2C flight booking portal, including the customer website and admin portal, using Angular and TypeScript.",
+            "Contributed to the B2B hotel agent portal used by travel agents for hotel services.",
+            "Used RxJS to manage API calls and data streams, reducing repeated API calls and improving page responsiveness.",
+            "Built reusable UI components for consistent screens across the portals and faster feature development.",
+            "Moved to Next.js (React) following a change in project technology and continued delivering features on the new stack.",
+            "Participated in sprint planning and code reviews with backend, QA, and product teams in an Agile setup."
+          ]
+        },
+        "summary": [
+          "Built features for B2C flight booking and B2B hotel portals using Angular, RxJS, React, and Next.js.",
+          "Created reusable UI components and reduced repeated API calls to improve responsiveness."
+        ]
+      }
+    ],
+    "subtitle": "Experience & education",
+    "detailsButton": "More details",
+    "closeButton": "Close",
+    "highlightsHeading": "Details",
+    "technologiesHeading": "Focus & technologies"
+  },
+  "projects": {
+    "heading": "Tickets",
+    "eyebrow": "LEG 02 / 05 · BOARDING PASSES",
+    "items": [
+      {
+        "flight": "FLIGHT VV-103 · PERSONAL PROJECT",
+        "gate": "C2",
+        "seat": "3A",
+        "title": "REVERSE RECRUITMENT PORTAL",
+        "description": "A full-stack job portal where the hiring flow runs the other way round.",
+        "tags": [
+          "Full-stack",
+          "React"
+        ],
+        "link": "",
+        "linkLabel": "View project",
+        "originCode": "BLR",
+        "origin": "BENGALURU",
+        "flightNumber": "FLIGHT VV-103",
+        "destinationCode": "JOB",
+        "destination": "JOB PORTAL",
+        "travelClass": "PERSONAL PROJECT"
+      }
+    ],
+    "subtitle": "Selected projects",
+    "cardLabels": {
+      "heading": "VIKAS VV · BOARDING PASS",
+      "from": "FROM",
+      "to": "TO",
+      "class": "CLASS",
+      "stack": "STACK",
+      "gate": "GATE",
+      "seat": "SEAT",
+      "unavailable": "Project link coming soon"
+    }
+  },
+  "skills": {
+    "heading": "Baggage",
+    "eyebrow": "LEG 03 / 05 · BAGGAGE",
+    "description": "What I carry on every trip.",
+    "categories": [
+      {
+        "title": "FRONTEND",
+        "values": [
+          "Angular",
+          "RxJS",
+          "React",
+          "Next.js"
+        ],
+        "destination": "UI LAYER",
+        "tagCode": "VV-FE-01"
+      },
+      {
+        "title": "BACKEND",
+        "values": [
+          "Java",
+          "Spring Boot",
+          "REST APIs",
+          "JWT",
+          "Spring Security"
+        ],
+        "destination": "API LAYER",
+        "tagCode": "VV-BE-02"
+      },
+      {
+        "title": "DATA",
+        "values": [
+          "PostgreSQL",
+          "MySQL"
+        ],
+        "destination": "DATA LAYER",
+        "tagCode": "VV-DB-03"
+      }
+    ],
+    "subtitle": "Technical skills",
+    "bagLabel": "Bag",
+    "bagsLabel": "bags",
+    "itemsLabel": "items",
+    "checkedInLabel": "items checked in",
+    "destinationLabel": "DEST"
+  },
+  "competencies": {
+    "heading": "Crew",
+    "eyebrow": "LEG 04 / 05 · FLIGHT DECK & CABIN CREW",
+    "groups": [
+      {
+        "eyebrow": "PRE-FLIGHT CHECKLIST",
+        "heading": "CORE COMPETENCIES",
+        "items": [
+          "Component-based UI architecture in Angular",
+          "Reactive programming with RxJS",
+          "REST API integration and JWT auth flows",
+          "Full-stack development with Java and Spring Boot",
+          "Clean, responsive, performance-aware interfaces"
+        ],
+        "kind": "technical",
+        "fromCode": "BUILD",
+        "fromLabel": "Technical expertise",
+        "toCode": "SHIP",
+        "toLabel": "Reliable applications"
+      },
+      {
+        "eyebrow": "CABIN CREW",
+        "heading": "SOFT SKILLS",
+        "items": [
+          "Clear communication",
+          "Teamwork and collaboration",
+          "Problem solving",
+          "Fast learner: mechanical to full-stack",
+          "Time management"
+        ],
+        "kind": "people",
+        "fromCode": "TEAM",
+        "fromLabel": "Working together",
+        "toCode": "GROW",
+        "toLabel": "Shared progress"
+      }
+    ],
+    "subtitle": "Core competencies & soft skills"
+  },
+  "certifications": {
+    "heading": "Stamps",
+    "eyebrow": "LEG 05 / 05 · PASSPORT STAMPS",
+    "subtitle": "Certifications",
+    "purposeLabel": "Purpose",
+    "skillsLabel": "Skills gained",
+    "dateLabel": "Obtained on",
+    "viewLabel": "View certificate",
+    "previousLabel": "Previous certificate",
+    "nextLabel": "Next certificate",
+    "slideLabel": "Certificate",
+    "items": [
+      {
+        "id": "java-full-stack",
+        "title": "Java Full Stack Course",
+        "issuer": "Arcus Technology",
+        "image": "/certificates/java-full-stack.png",
+        "document": "/certificates/java-full-stack.pdf",
+        "imageAlt": "Java Full Stack Course completion certificate awarded to Vikas A Vastrad by Arcus Technology",
+        "purpose": "Completed a five-month Java full-stack course focused on building web applications across the frontend and backend.",
+        "skills": [
+          "Java",
+          "Frontend development",
+          "Backend development",
+          "Full-stack application development"
+        ],
+        "obtainedOn": "2025-02-20",
+        "obtainedLabel": "20 February 2025"
+      },
+      {
+        "id": "postman-api",
+        "title": "Postman API Fundamentals Student Expert",
+        "issuer": "Postman",
+        "image": "/certificates/postman-api.png",
+        "document": "/certificates/postman-api.pdf",
+        "imageAlt": "Postman API Fundamentals Student Expert certificate awarded to Vikas",
+        "purpose": "Developed a foundation in working with APIs and using Postman to explore and test API requests.",
+        "skills": [
+          "API fundamentals",
+          "HTTP requests",
+          "Postman",
+          "API testing"
+        ],
+        "obtainedOn": "2025-02-05",
+        "obtainedLabel": "5 February 2025"
+      },
+      {
+        "id": "sql-intermediate",
+        "title": "SQL (Intermediate)",
+        "issuer": "HackerRank",
+        "image": "/certificates/sql-intermediate.png",
+        "document": "/certificates/sql-intermediate.png",
+        "imageAlt": "HackerRank SQL Intermediate certificate awarded to Vikas Vastrad on 28 February 2025",
+        "purpose": "Passed the HackerRank SQL Intermediate skills assessment, demonstrating the ability to query and work with relational data.",
+        "skills": [
+          "SQL",
+          "Relational databases",
+          "Data querying",
+          "Query problem solving"
+        ],
+        "obtainedOn": "2025-02-28",
+        "obtainedLabel": "28 February 2025"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "ARRIVED · BENGALURU",
+    "heading": "Arrival",
+    "links": [
+      {
+        "label": "GitHub",
+        "href": "https://www.github.com/vikas-vastrad",
+        "type": "github"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/vikas-vastrad-dev",
+        "type": "linkedin"
+      }
+    ],
+    "subtitle": "Contact",
+    "emailLabel": "Send email",
+    "emailHref": "mailto:vikasvastrad11@gmail.com",
+    "phoneLabel": "Call",
+    "phoneNumber": "+91-6366033669",
+    "phoneEmptyLabel": "Phone number coming soon"
+  },
+  "footer": {
+    "detailsHeading": "For more details",
+    "copyrightNotice": "All rights reserved.",
+    "boardingPass": {
+      "brand": "VIKAS VASTRAD",
+      "heading": "BOARDING PASS",
+      "passengerLabel": "PASSENGER",
+      "name": "VIKAS A VASTRAD",
+      "role": "ASSOCIATE SOFTWARE ENGINEER · ANGULAR",
+      "emailLabel": "EMAIL",
+      "email": "vikasvastrad11@gmail.com",
+      "phoneLabel": "PHONE",
+      "phone": "+91-6366033669",
+      "fromLabel": "FROM",
+      "from": "BENGALURU (BLR)",
+      "toLabel": "TO",
+      "to": "YOUR TEAM",
+      "flightLabel": "FLIGHT",
+      "flight": "VV 001",
+      "gateLabel": "GATE",
+      "gate": "A1",
+      "seatLabel": "SEAT",
+      "seat": "12A",
+      "location": "BLR · 2026"
+    }
+  }
+}
