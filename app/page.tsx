@@ -1,3 +1,4 @@
+import { IntroAnimation } from "@/components/shared/IntroAnimation";
 import { Navbar } from "@/components/shared/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
@@ -7,4 +8,25 @@ import { Skills } from "@/components/sections/Skills";
 import { Competencies } from "@/components/sections/Competencies";
 import { Certifications } from "@/components/sections/Certifications";
 import { PortfolioFooter } from "@/components/sections/PortfolioFooter";
-export default function Home(){return <><Navbar/><main><Hero/><About/><Experience/><Projects/><Skills/><Competencies/><Certifications/></main><PortfolioFooter/></>;}
+
+export default function Home() {
+  return (
+    <>
+      <IntroAnimation />
+
+      <Navbar />
+
+      <main>
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Skills />
+        <Competencies />
+        <Certifications />
+      </main>
+
+      <PortfolioFooter />
+    </>
+  );
+}
