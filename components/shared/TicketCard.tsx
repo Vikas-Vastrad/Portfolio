@@ -20,13 +20,8 @@ export function TicketCard({ ticket }: { ticket: Ticket }) {
         <div className="project-ticket-codes">
           <strong>{ticket.originCode}</strong>
           <svg viewBox="0 0 80 40" fill="none" aria-hidden="true">
-            <path
-              d="M2 28 Q32 4 65 19"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeDasharray="2 5"
-            />
-            <path d="m62 13 15 7-15 6 4-6Z" fill="var(--signal)" />
+            <path d="M2 20 L78 20" stroke="currentColor" strokeWidth="1.5" strokeDasharray="2 5" />
+            <path d="m32 13 15 7-15 6 4-6Z" fill="var(--signal)" />
           </svg>
           <strong>{ticket.destinationCode}</strong>
         </div>
