@@ -1,4 +1,6 @@
 import { IntroAnimation } from "@/components/shared/IntroAnimation";
+import { ScrollAnimations } from "@/components/shared/ScrollAnimations";
+
 import { Navbar } from "@/components/shared/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
@@ -12,21 +14,25 @@ import { PortfolioFooter } from "@/components/sections/PortfolioFooter";
 export default function Home() {
   return (
     <>
+      {/* Website welcome animation */}
       <IntroAnimation />
 
-      <Navbar />
+      {/* Website content and scroll animations */}
+      <ScrollAnimations>
+        <Navbar />
 
-      <main>
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Skills />
-        <Competencies />
-        <Certifications />
-      </main>
+        <main>
+          <Hero />
+          <About />
+          <Experience />
+          <Projects />
+          <Skills />
+          <Competencies />
+          <Certifications />
+        </main>
 
-      <PortfolioFooter />
+        <PortfolioFooter />
+      </ScrollAnimations>
     </>
   );
 }
